@@ -15,6 +15,8 @@
 			<ul>
 				<li class="firsItem"><a href="http://localhost/website.html">Dice game</a></li>
 				<li><a href="http://localhost/highScore.html">High Score</a></li>
+				<li><a href="http://localhost/register.html">Register</a></li>
+				
 			</ul>
 		</nav>
 		
@@ -22,12 +24,31 @@
 		
 		<main id="main_section">
 			<!--<aside id="info_side"></aside>-->
-			<div id="main_part">
-					<input type="text" class="txtBox">
-					<input type="submit" class="btnS" value="submit">
+			<form id="main_part">
+					<input type="text" id="dice1" class="txtBox" placeholder="Dice 1">
+					<input type="text" id="dice2" class="txtBox" placeholder="Dice 2">
+					<br>
+					<input type="text" id="dice3" class="txtBox" placeholder="Dice 3">
+					<input type="text" id="dice4" class="txtBox" placeholder="Dice 4">
+					<br>
+					<div id="restOfMain_txtbtn">
+					<input type="text" id="input" class="txtBox" placeholder="Insert here">
+					<input type="submit" class="btnS" value="Roll">
+					</div>
 
-			</div>
+			</form>
+			<aside id="help">
+				<h4>How to play:</h4>
+				<br>
+				<ul>
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+			</aside>
 		</main>
+		
+		
 		
 		<footer id="footer">
 			Copyright 2014
