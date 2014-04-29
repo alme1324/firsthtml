@@ -8,7 +8,7 @@ header, section, footer, aside, nav, article, hgroup,form{
 }
 h1{
 	font: bold 20px Tahoma;
-	
+
 }
 h2{
 	font: bold 14px Tahoma;
@@ -48,7 +48,7 @@ text-align: center;
 	margin:10px;
     padding-left:10px; 
     padding-right:10px;
-	
+
 }
 
 #input{
@@ -133,7 +133,7 @@ text-align: center;
 	border-left: 6px solid #3E5DC4;
 	/*margin: 0px 0px 5px 0px;*/
 	background: #E4E4E4;
-	
+
 }
 
 #main_part{
