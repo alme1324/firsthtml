@@ -3,6 +3,9 @@
 <head>
 	<meta charset="utf-8">
 	<title>Register</title>
+	<script src="JSreg.js">
+	
+	</script>
 	<link rel="stylesheet" href="regCss.css">
 </head>
 <body>
@@ -10,42 +13,50 @@
 		<header id="top_header">
 			<img src="http://i62.tinypic.com/m7s103.png" alt="Dice" height="150" width="200">
 		</header>
-		
+
 		<nav id="nav_bar">
 			<ul>
 				<li class="firsItem"><a href="http://localhost/website.html">Dice game</a></li>
 				<li><a href="http://localhost/highScore.html">High Score</a></li>
 				<li><a href="http://localhost/register.html">Register</a></li>
-				
+
 			</ul>
 		</nav>
-		
-		
-		
-		<main id="main_section">
+
+
+
+		<div id="main_section">
 			<!--<aside id="info_side"></aside>-->
-			<form id="main_part" method="post" onsubmit="return checkInput()">
+			<form id="main_part" method="post" onsubmit="return checkInput();">
 					<label id="lblName" class="lbls">Name</label>
-					<input type="text" id="dice1" class="txtBox">
+					<input type="text" onblur="checkUserName()" id="name" class="txtBox" />
 					<br>
-					<label id="lblSirName" class="lbls">Sir name</label>
-					<input type="text" id="dice2" class="txtBox">
+					<label id="lblSurName" class="lbls" >Surname</label>
+					<input type="text" onblur="checkSurName()" id="Surname" class="txtBox">
 					<br>
-					<label id="lblEMail" class="lbls">E-Mail</label>
-					<input type="text" id="dice3" class="txtBox">
+					<label id="lblE_Mail" class="lbls">E-Mail</label>
+					<input type="text" onblur="checkEMail()" id="e_Mail" class="txtBox">
 					<br>
 					<label id="lblpass" class="lbls">Password</label>
-					<input type="text" id="dice3" class="txtBox">
+					<input type="text" onblur="checkPassword()" id="password" class="txtBox">
 					<br>
 					<div id="restOfMain_txtbtn">
 					<input type="submit" class="btnS" value="Register">
+					<hr>
+				<ul id="infoList">
+					<li><b>Name</b>: Should not contain any numbers or symbols.</li>
+					<li><b>Surname</b>: Should not contain any numbers or symbols.</li>
+					<li><b>E-Mail</b>: A valid email.</li>
+					<li><b>Password</b>: Atleast 6 characters</li>
+				</ul>
 					</div>
 
 			</form>
-		</main>
-		
-		
-		
+
+		</div>
+
+
+
 		<footer id="footer">
 			Copyright 2014
 		</footer>
