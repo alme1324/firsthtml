@@ -8,7 +8,7 @@ header, section, footer, aside, nav, article, hgroup,form{
 }
 h1{
 	font: bold 20px Tahoma;
-	
+
 }
 h2{
 	font: bold 14px Tahoma;
@@ -36,6 +36,16 @@ text-align: center;
 	border-radius:7px;*/
 	padding: 15px;
 }
+
+
+#infoList{
+	margin-left: 40px;
+	margin-top:5px;
+	margin-bottom:5px;
+	color:#666666;
+	text-align:left;
+}
+
 /*text box*/
 .txtBox{
 	-moz-border-radius: 0 5px 5px 0; 
@@ -50,7 +60,7 @@ text-align: center;
 	padding: 0 5px; 
 	width: 150px;
 	margin-left:-5px; 
-	
+
 }
 
 #input{
@@ -95,7 +105,7 @@ text-align: center;
 	height: 36px; 
 	line-height: 36px; 
 	width: 80px;
-	
+
 }
 
 /*Links*/
@@ -152,7 +162,7 @@ text-align: center;
 	border-left: 6px solid #3E5DC4;
 	/*margin: 0px 0px 5px 0px;*/
 	background: #E4E4E4;
-	
+
 }
 #main_part{
 	float: left;
@@ -168,7 +178,8 @@ text-align: center;
 	-webkit-border-top-right-radius: 8px;
 	-moz-border-radius-topright: 8px;
 	border-top-right-radius: 8px;
-	border: 1px dotted #ffffff;
+	border-top: 1px dotted #ffffff;
+	border-bottom: 8px solid #476ADC;
 	border-right: 4px solid #476ADC;
 	border-left: 4px solid #476ADC;
 }
